@@ -14,7 +14,7 @@ https://github.com/ShogunPanda/moment-strftime2
 
 Moment.js is a great, lightweight date-manipulation library, with a very approachable date format syntax that makes it a breeze to work with dates and times in the Javascript world.
 
-Unfortunately, the library doesn't support (and [won't do it]()) one of the most common approaches to format strings: the Unix-Style strftime syntax.
+Unfortunately, the library doesn't support (and [won't do it](https://github.com/moment/moment/issues/49)) one of the most common approaches to format strings: the Unix-Style strftime syntax.
  
 This plugin (any many others) aims to fill the gap.
 
