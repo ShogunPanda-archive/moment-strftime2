@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Namespaces</h3><ul><li><a href="moment-strftime2.html">moment-strftime2</a><ul class='methods'><li data-type='method'><a href="moment-strftime2.html#.installTo">installTo</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+    <section class="readme">
+        <article><h1>moment-strftime2</h1><p><a href="http://badge.fury.io/js/moment-strftime2"><img src="https://badge.fury.io/js/moment-strftime2.png" alt="Package Version"></a>
+<a href="https://gemnasium.com/ShogunPanda/moment-strftime2"><img src="https://gemnasium.com/ShogunPanda/moment-strftime2.png?travis" alt="Dependency Status"></a>
+<a href="http://travis-ci.org/ShogunPanda/moment-strftime2"><img src="https://secure.travis-ci.org/ShogunPanda/moment-strftime2.png?branch=master" alt="Build Status"></a>
+<a href="https://coveralls.io/github/ShogunPanda/moment-strftime2?branch=master"><img src="https://coveralls.io/repos/github/ShogunPanda/moment-strftime2/badge.svg?branch=master" alt="Coverage Status"></a></p>
+<p>strftime support for <a href="http://momentjs.com/">Moment.js</a></p>
+<p>https://github.com/ShogunPanda/moment-strftime2</p>
+<h2>Introduction</h2><p>Moment.js is a great, lightweight date-manipulation library, with a very approachable date format syntax that makes it a breeze to work with dates and times in the Javascript world.</p>
+<p>Unfortunately, the library doesn't support (and <a href="">won't do it</a>) one of the most common approaches to format strings: the Unix-Style strftime syntax.</p>
+<p>This plugin (any many others) aims to fill the gap.</p>
+<h2>Installation (NPM)</h2><p>Simply do:</p>
+<pre class="prettyprint source"><code>npm install moment-strftime2</code></pre><h2>Installation (Bower)</h2><p>Simply do:</p>
+<pre class="prettyprint source"><code>bower install moment-strftime2</code></pre><h3>Usage</h3><pre class="prettyprint source"><code>const moment = require(&quot;moment&quot;);
+require(&quot;moment-strftime2&quot;).installTo(moment);
+
+moment().strftime(&quot;%m/%d/%y %I:%M %p %Z&quot;); // => &quot;16/09/11 09:22 AM CET&quot;</code></pre><h3>Supported modifiers</h3><p>This plugin supports all modifiers <a href="http://man7.org/linux/man-pages/man3/strftime.3.html">listed here</a> with the exception of the following:</p>
+<ul>
+<li><code>%c</code></li>
+<li><code>%C</code></li>
+<li><code>%E</code></li>
+<li><code>%G</code></li>
+<li><code>%n</code></li>
+<li><code>%O</code></li>
+<li><code>%t</code></li>
+<li><code>%U</code></li>
+<li><code>%x</code></li>
+<li><code>%X</code></li>
+<li><code>%+</code></li>
+</ul>
+<p>And with the addition of the following modifiers:</p>
+<ul>
+<li><code>%L</code>: The milliseconds as decimal-number (range 000 to 999).</li>
+</ul>
+<p>TODO@PI: HOWTO EXTEND</p>
+<h2>Supported implementations.</h2><p>moment-strftime2 supports and has been tested on <a href="http://nodejs.org">NodeJS</a> 6.0+.</p>
+<h2>API Documentation</h2><p>The API documentation can be found <a href="https://shogunpanda.github.io/moment-strftime2">here</a>.</p>
+<h2>Contributing to moment-strftime2</h2><ul>
+<li>Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.</li>
+<li>Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.</li>
+<li>Fork the project.</li>
+<li>Start a feature/bugfix branch.</li>
+<li>Commit and push until you are happy with your contribution.</li>
+<li>Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.</li>
+</ul>
+<h2>Copyright</h2><p>Copyright (C) 2016 and above Shogun <a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x73;&#x68;&#x6f;&#103;&#117;&#110;&#x40;&#99;&#x6f;&#119;&#116;&#101;&#99;&#x68;&#x2e;&#105;&#x74;">&#x73;&#x68;&#x6f;&#103;&#117;&#110;&#x40;&#99;&#x6f;&#119;&#116;&#101;&#99;&#x68;&#x2e;&#105;&#x74;</a>.</p>
+<p>Licensed under the MIT license, which can be found at http://opensource.org/licenses/MIT.</p></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.2</a> on Mon Oct 10 2016 10:32:37 GMT+0200 (CEST) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
