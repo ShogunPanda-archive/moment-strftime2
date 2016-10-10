@@ -1,6 +1,7 @@
 # moment-strftime2
 
 [![Package Version](https://badge.fury.io/js/moment-strftime2.png)](http://badge.fury.io/js/moment-strftime2)
+[![Bower version](https://badge.fury.io/bo/moment-strftime2.png)](https://badge.fury.io/bo/moment-strftime2)
 [![Dependency Status](https://gemnasium.com/ShogunPanda/moment-strftime2.png?travis)](https://gemnasium.com/ShogunPanda/moment-strftime2)
 [![Build Status](https://secure.travis-ci.org/ShogunPanda/moment-strftime2.png?branch=master)](http://travis-ci.org/ShogunPanda/moment-strftime2)
 [![Coverage Status](https://coveralls.io/repos/github/ShogunPanda/moment-strftime2/badge.svg?branch=master)](https://coveralls.io/github/ShogunPanda/moment-strftime2?branch=master)

@@ -1,0 +1,20 @@
+{
+  "name": "moment-strftime2",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ShogunPanda/moment-strftime2",
+  "authors": [
+    "Shogun <shogun@cowtech.it> (https://cowtech.it/)"
+  ],
+  "description": "strftime support for Moment.js",
+  "main": "main.js",
+  "keywords": ["moment", "strftime", "date", "time", "datetime"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "moment": "^2"
+  }
+}
