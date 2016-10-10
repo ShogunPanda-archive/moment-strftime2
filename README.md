@@ -35,7 +35,7 @@ bower install moment-strftime2
 
 ### Usage
 
-```
+```javascript
 const moment = require("moment");
 require("moment-strftime2").installTo(moment);
 
@@ -62,7 +62,22 @@ And with the addition of the following modifiers:
 
 * `%L`: The milliseconds as decimal-number (range 000 to 999).
 
-TODO@PI: HOWTO EXTEND
+### Customization
+
+You can completely customize moment-strftime2 behavior by requiring the module and overriding the `separator` and `modifiers` variables:
+
+Example:
+
+```javascript
+const moment = require("moment");
+const strftime2 = require("moment-strftime2");
+strftime2.installTo(moment);
+
+moment("2016-10-10 12:34:56.135 +02:00").strftime("%d %o #d #o"); // "10 %o #d #o"
+strftime2.separator = "$"
+strftime2.modifier.o = "DD";
+moment("2016-10-10 12:34:56.135 +02:00").strftime("%d %o #d #o"); // "%d %o 10 10"
+```
 
 ## Supported implementations.
 
