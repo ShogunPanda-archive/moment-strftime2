@@ -1,10 +1,9 @@
 # moment-strftime2
 
-[![Package Version](https://badge.fury.io/js/moment-strftime2.png)](http://badge.fury.io/js/moment-strftime2)
-[![Bower version](https://badge.fury.io/bo/moment-strftime2.png)](https://badge.fury.io/bo/moment-strftime2)
-[![Dependency Status](https://gemnasium.com/ShogunPanda/moment-strftime2.png?travis)](https://gemnasium.com/ShogunPanda/moment-strftime2)
-[![Build Status](https://secure.travis-ci.org/ShogunPanda/moment-strftime2.png?branch=master)](http://travis-ci.org/ShogunPanda/moment-strftime2)
-[![Coverage Status](https://coveralls.io/repos/github/ShogunPanda/moment-strftime2/badge.svg?branch=master)](https://coveralls.io/github/ShogunPanda/moment-strftime2?branch=master)
+[![Package Version](https://img.shields.io/npm/v/moment-strftime2.svg)](https://npmjs.com/package/moment-strftime2)
+[![Dependency Status](https://img.shields.io/gemnasium/ShogunPanda/moment-strftime2.svg)](https://gemnasium.com/ShogunPanda/moment-strftime2)
+[![Build Status](https://img.shields.io/travis/ShogunPanda/moment-strftime2.svg)](http://travis-ci.org/ShogunPanda/moment-strftime2)
+[![Coverage Status](https://img.shields.io/coveralls/github/ShogunPanda/moment-strftime2.svg)](https://coveralls.io/github/ShogunPanda/moment-strftime2)
 
 strftime support for [Moment.js](http://momentjs.com/)
 
@@ -101,4 +100,4 @@ The API documentation can be found [here](https://shogunpanda.github.io/moment-s
 
 Copyright (C) 2016 and above Shogun <shogun@cowtech.it>.
 
-Licensed under the MIT license, which can be found at http://opensource.org/licenses/MIT.
+Licensed under the MIT license, which can be found at https://choosealicense.com/licenses/mit.
