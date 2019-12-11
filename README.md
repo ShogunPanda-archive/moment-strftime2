@@ -1,17 +1,8 @@
 # moment-strftime2
 
-[![Package Version](https://img.shields.io/npm/v/moment-strftime2.svg)](https://npmjs.com/package/moment-strftime2)
-[![Dependency Status](https://img.shields.io/gemnasium/ShogunPanda/moment-strftime2.svg)](https://gemnasium.com/ShogunPanda/moment-strftime2)
-[![Build Status](https://img.shields.io/travis/ShogunPanda/moment-strftime2.svg)](http://travis-ci.org/ShogunPanda/moment-strftime2)
-[![Coverage Status](https://img.shields.io/coveralls/github/ShogunPanda/moment-strftime2.svg)](https://coveralls.io/github/ShogunPanda/moment-strftime2)
+## END OF DEVELOPMENT NOTICE - This package has been discontinued
 
 strftime support for [Moment.js](http://momentjs.com/)
-
-https://github.com/ShogunPanda/moment-strftime2
-
-## END OF DEVELOPMENT NOTICE
-
-# This module has been discontinued.
 
 ## Introduction
 
@@ -40,10 +31,10 @@ bower install moment-strftime2
 ### Usage
 
 ```javascript
-const moment = require("moment")
-require("moment-strftime2").installTo(moment)
+const moment = require('moment')
+require('moment-strftime2').installTo(moment)
 
-moment().strftime("%m/%d/%y %I:%M %p %Z") // => "16/09/11 09:22 AM CET"
+moment().strftime('%m/%d/%y %I:%M %p %Z') // => "16/09/11 09:22 AM CET"
 ```
 
 ### Supported modifiers
@@ -73,14 +64,14 @@ You can completely customize moment-strftime2 behavior by requiring the module a
 Example:
 
 ```javascript
-const moment = require("moment")
-const strftime2 = require("moment-strftime2")
+const moment = require('moment')
+const strftime2 = require('moment-strftime2')
 strftime2.installTo(moment)
 
-moment("2016-10-10 12:34:56.135 +02:00").strftime("%d %o #d #o") // "10 %o #d #o"
-strftime2.separator = "$"
-strftime2.modifier.o = "DD"
-moment("2016-10-10 12:34:56.135 +02:00").strftime("%d %o #d #o") // "%d %o 10 10"
+moment('2016-10-10 12:34:56.135 +02:00').strftime('%d %o #d #o') // "10 %o #d #o"
+strftime2.separator = '$'
+strftime2.modifier.o = 'DD'
+moment('2016-10-10 12:34:56.135 +02:00').strftime('%d %o #d #o') // "%d %o 10 10"
 ```
 
 ## Supported implementations.
